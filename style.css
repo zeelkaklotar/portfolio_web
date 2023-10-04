@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(1, 1, 68);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white
+}
+
+nav ul li a:hover {
+    color: green;
+    font-size: 1.5rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 335px;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.leftSection .buttons {
+    padding: 20px
+}
+
+.leftSection .btn {
+    padding: 12px;
+    border-radius: 20px;
+    background-color: #000021;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+.rightSection img {
+    width: 80%;
+    /* margin: 50px 0px; */
+}
+
+.purple {
+    color: aqua;
+}
+
+#element {
+    color: aqua;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+main hr {
+    border: 0;
+    background-color: blue;
+    height: 3px;
+    margin: 90px;
+}
+
+.secondSection h1 {
+    font-size: 2rem;
+}
+
+.gray {
+    color: #1c6aaa;
+    font-size: 30px;
+}
+
+.secondSection .box {
+    background: white;
+    width: 77vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    width: 1px;
+    height: 100px;
+    background: white;
+    margin: 0 90px;
+    /* margin: 56px 0; */
+}
+
+.image1 {
+    width: 30px;
+    position: relative;
+    top: -37px;
+    left: -11px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 61px;
+    width: 150px;
+    font-size: 23px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 74px;
+    color: rgb(106, 106, 106);
+    width: 150px;
+    font-size: 9px;
+}
+
+footer {
+    background-color: #410080;
+
+}
+
+.footer {
+    display: flex;
+    padding: 16px 96px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 200px;
+}
+
+footer .footer-text {
+    text-align: center;
+    color: gray;
+    padding: 12px;
+}
+
+
+
+.Second a {
+    color: white;
+    text-decoration: none;
+}
+
+.Second a:hover {
+    text-decoration: underline;
+}
+
+.Third a {
+    color: white;
+    text-decoration: none;
+}
+
+.Third a:hover {
+    text-decoration: underline;
+}
+
+.forth a:hover {
+    text-decoration: underline;
+}
+
+.forth {
+    color: white;
+    /* background-color: transparent; */
+    text-decoration: none;
+}
+
+.forth a {
+    color: white;
+    text-decoration: none;
+}
